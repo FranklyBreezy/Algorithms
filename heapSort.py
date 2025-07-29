@@ -31,3 +31,11 @@ def heap_sort(arr):
 arr = [12, 11, 13, 5, 6, 7]
 heap_sort(arr)
 print("Heap Sort:", arr)
+# Time complexity:
+# - Building the max heap takes O(n) time.
+# - Extracting elements one by one and heapifying takes O(log n) per element.
+# - Total time complexity is O(n log n) for all cases (best, average, worst).
+
+# Space complexity: O(1)
+# - Heap sort sorts the array in place.
+# - Uses only a constant amount of extra memory.
