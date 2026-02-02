@@ -17,3 +17,4 @@ class Solution(object):
                 second_smallest = x
         
         return first + smallest + second_smallest
+#comment
